@@ -1,0 +1,519 @@
+{
+  "id": "go_95_muzc1k81",
+  "name": "SlotReel",
+  "kind": "empty",
+  "active": true,
+  "tag": "",
+  "layer": "Default",
+  "prefabId": null,
+  "transform": {
+    "x": 0,
+    "y": 0,
+    "rotation": 0,
+    "scaleX": 1,
+    "scaleY": 1
+  },
+  "components": {
+    "reelStrip": {
+      "symbols": [
+        {
+          "symbolId": "lion",
+          "weight": 4,
+          "spriteId": null,
+          "frames": [],
+          "fps": 12,
+          "color": "#c8792b"
+        },
+        {
+          "symbolId": "crown_l",
+          "weight": 3,
+          "spriteId": null,
+          "frames": [],
+          "fps": 12,
+          "color": "#d9c33f"
+        },
+        {
+          "symbolId": "diamond_b",
+          "weight": 2,
+          "spriteId": null,
+          "frames": [],
+          "fps": 12,
+          "color": "#3f8fd9"
+        },
+        {
+          "symbolId": "trophy",
+          "weight": 1,
+          "spriteId": null,
+          "frames": [],
+          "fps": 12,
+          "color": "#d9a63f"
+        },
+        {
+          "symbolId": "chest",
+          "weight": 6,
+          "spriteId": null,
+          "frames": [],
+          "fps": 12,
+          "color": "#8a5a2b"
+        },
+        {
+          "symbolId": "moneybag",
+          "weight": 7,
+          "spriteId": null,
+          "frames": [],
+          "fps": 12,
+          "color": "#4a8f4a"
+        },
+        {
+          "symbolId": "star",
+          "weight": 8,
+          "spriteId": null,
+          "frames": [],
+          "fps": 12,
+          "color": "#d9d13f"
+        },
+        {
+          "symbolId": "K",
+          "weight": 10,
+          "spriteId": null,
+          "frames": [],
+          "fps": 12,
+          "color": "#8f3f4f"
+        },
+        {
+          "symbolId": "J",
+          "weight": 12,
+          "spriteId": null,
+          "frames": [],
+          "fps": 12,
+          "color": "#3f7a8f"
+        },
+        {
+          "symbolId": "ten",
+          "weight": 12,
+          "spriteId": null,
+          "frames": [],
+          "fps": 12,
+          "color": "#5a6b7a"
+        },
+        {
+          "symbolId": "Q",
+          "weight": 10,
+          "spriteId": null,
+          "frames": [],
+          "fps": 12,
+          "color": "#6f4f8f"
+        },
+        {
+          "symbolId": "7",
+          "weight": 10,
+          "spriteId": null,
+          "frames": [],
+          "fps": 12,
+          "color": "#c8492b"
+        },
+        {
+          "symbolId": "crown_s",
+          "weight": 1,
+          "spriteId": null,
+          "frames": [],
+          "fps": 12,
+          "color": "#7c4fd9"
+        },
+        {
+          "symbolId": "scatter",
+          "weight": 1,
+          "spriteId": null,
+          "frames": [],
+          "fps": 12,
+          "color": "#d94ba0"
+        }
+      ],
+      "enabled": true
+    },
+    "mask": {
+      "shape": "rectangle",
+      "sizeMode": "custom",
+      "width": 1,
+      "height": 5.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fadeOffsetX": 0,
+      "fadeOffsetY": 0,
+      "fadeColor": null,
+      "enabled": true
+    }
+  },
+  "scripts": [],
+  "componentOrder": [
+    "reelStrip",
+    "mask"
+  ],
+  "children": [
+    {
+      "id": "go_96_muzc1k81",
+      "name": "Symbol_0",
+      "kind": "sprite",
+      "active": true,
+      "tag": "lion",
+      "layer": "Default",
+      "prefabId": null,
+      "transform": {
+        "x": 0,
+        "y": 2.2,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "components": {
+        "spriteRenderer": {
+          "spriteId": null,
+          "flipX": false,
+          "flipY": true,
+          "opacity": 1,
+          "sortingLayer": "Default",
+          "orderInLayer": 4,
+          "pixelsPerUnit": 100,
+          "usePixelsPerUnitFromSprite": true,
+          "swaps": [],
+          "swapIndex": -1,
+          "color": "#ffffff",
+          "shapeType": "rectangle",
+          "shapeWidth": 0.85,
+          "shapeHeight": 0.85,
+          "fillColor": "#c8792b",
+          "borderColor": "#1b1c22",
+          "borderWidth": 0.04,
+          "borderRadius": 0.1,
+          "gradientEnabled": false,
+          "gradientColor": "#1b1c22",
+          "gradientAngle": 90,
+          "shadowEnabled": false,
+          "shadowColor": "rgba(0,0,0,0.5)",
+          "shadowBlur": 0.08,
+          "shadowOffsetX": 0.04,
+          "shadowOffsetY": 0.04,
+          "tileWhenStretched": false,
+          "fillScreen": false,
+          "fillScreenSet": false,
+          "fitWidth": 0,
+          "fitHeight": 0,
+          "fitMode": "stretch",
+          "enabled": true
+        },
+        "spriteAnimator": {
+          "frames": [],
+          "fps": 8,
+          "loop": true,
+          "playing": false
+        },
+        "animator": {
+          "clipId": null,
+          "controllerId": null,
+          "playing": true,
+          "enabled": true,
+          "parameters": {}
+        }
+      },
+      "scripts": [],
+      "componentOrder": [
+        "spriteRenderer",
+        "spriteAnimator",
+        "animator"
+      ],
+      "children": []
+    },
+    {
+      "id": "go_97_muzc1k81",
+      "name": "Symbol_1",
+      "kind": "sprite",
+      "active": true,
+      "tag": "crown_l",
+      "layer": "Default",
+      "prefabId": null,
+      "transform": {
+        "x": 0,
+        "y": 1.1,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "components": {
+        "spriteRenderer": {
+          "spriteId": null,
+          "flipX": false,
+          "flipY": true,
+          "opacity": 1,
+          "sortingLayer": "Default",
+          "orderInLayer": 4,
+          "pixelsPerUnit": 100,
+          "usePixelsPerUnitFromSprite": true,
+          "swaps": [],
+          "swapIndex": -1,
+          "color": "#ffffff",
+          "shapeType": "rectangle",
+          "shapeWidth": 0.85,
+          "shapeHeight": 0.85,
+          "fillColor": "#d9c33f",
+          "borderColor": "#1b1c22",
+          "borderWidth": 0.04,
+          "borderRadius": 0.1,
+          "gradientEnabled": false,
+          "gradientColor": "#1b1c22",
+          "gradientAngle": 90,
+          "shadowEnabled": false,
+          "shadowColor": "rgba(0,0,0,0.5)",
+          "shadowBlur": 0.08,
+          "shadowOffsetX": 0.04,
+          "shadowOffsetY": 0.04,
+          "tileWhenStretched": false,
+          "fillScreen": false,
+          "fillScreenSet": false,
+          "fitWidth": 0,
+          "fitHeight": 0,
+          "fitMode": "stretch",
+          "enabled": true
+        },
+        "spriteAnimator": {
+          "frames": [],
+          "fps": 8,
+          "loop": true,
+          "playing": false
+        },
+        "animator": {
+          "clipId": null,
+          "controllerId": null,
+          "playing": true,
+          "enabled": true,
+          "parameters": {}
+        }
+      },
+      "scripts": [],
+      "componentOrder": [
+        "spriteRenderer",
+        "spriteAnimator",
+        "animator"
+      ],
+      "children": []
+    },
+    {
+      "id": "go_98_muzc1k81",
+      "name": "Symbol_2",
+      "kind": "sprite",
+      "active": true,
+      "tag": "diamond_b",
+      "layer": "Default",
+      "prefabId": null,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "components": {
+        "spriteRenderer": {
+          "spriteId": null,
+          "flipX": false,
+          "flipY": true,
+          "opacity": 1,
+          "sortingLayer": "Default",
+          "orderInLayer": 4,
+          "pixelsPerUnit": 100,
+          "usePixelsPerUnitFromSprite": true,
+          "swaps": [],
+          "swapIndex": -1,
+          "color": "#ffffff",
+          "shapeType": "rectangle",
+          "shapeWidth": 0.85,
+          "shapeHeight": 0.85,
+          "fillColor": "#3f8fd9",
+          "borderColor": "#1b1c22",
+          "borderWidth": 0.04,
+          "borderRadius": 0.1,
+          "gradientEnabled": false,
+          "gradientColor": "#1b1c22",
+          "gradientAngle": 90,
+          "shadowEnabled": false,
+          "shadowColor": "rgba(0,0,0,0.5)",
+          "shadowBlur": 0.08,
+          "shadowOffsetX": 0.04,
+          "shadowOffsetY": 0.04,
+          "tileWhenStretched": false,
+          "fillScreen": false,
+          "fillScreenSet": false,
+          "fitWidth": 0,
+          "fitHeight": 0,
+          "fitMode": "stretch",
+          "enabled": true
+        },
+        "spriteAnimator": {
+          "frames": [],
+          "fps": 8,
+          "loop": true,
+          "playing": false
+        },
+        "animator": {
+          "clipId": null,
+          "controllerId": null,
+          "playing": true,
+          "enabled": true,
+          "parameters": {}
+        }
+      },
+      "scripts": [],
+      "componentOrder": [
+        "spriteRenderer",
+        "spriteAnimator",
+        "animator"
+      ],
+      "children": []
+    },
+    {
+      "id": "go_99_muzc1k81",
+      "name": "Symbol_3",
+      "kind": "sprite",
+      "active": true,
+      "tag": "trophy",
+      "layer": "Default",
+      "prefabId": null,
+      "transform": {
+        "x": 0,
+        "y": -1.1,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "components": {
+        "spriteRenderer": {
+          "spriteId": null,
+          "flipX": false,
+          "flipY": true,
+          "opacity": 1,
+          "sortingLayer": "Default",
+          "orderInLayer": 4,
+          "pixelsPerUnit": 100,
+          "usePixelsPerUnitFromSprite": true,
+          "swaps": [],
+          "swapIndex": -1,
+          "color": "#ffffff",
+          "shapeType": "rectangle",
+          "shapeWidth": 0.85,
+          "shapeHeight": 0.85,
+          "fillColor": "#d9a63f",
+          "borderColor": "#1b1c22",
+          "borderWidth": 0.04,
+          "borderRadius": 0.1,
+          "gradientEnabled": false,
+          "gradientColor": "#1b1c22",
+          "gradientAngle": 90,
+          "shadowEnabled": false,
+          "shadowColor": "rgba(0,0,0,0.5)",
+          "shadowBlur": 0.08,
+          "shadowOffsetX": 0.04,
+          "shadowOffsetY": 0.04,
+          "tileWhenStretched": false,
+          "fillScreen": false,
+          "fillScreenSet": false,
+          "fitWidth": 0,
+          "fitHeight": 0,
+          "fitMode": "stretch",
+          "enabled": true
+        },
+        "spriteAnimator": {
+          "frames": [],
+          "fps": 8,
+          "loop": true,
+          "playing": false
+        },
+        "animator": {
+          "clipId": null,
+          "controllerId": null,
+          "playing": true,
+          "enabled": true,
+          "parameters": {}
+        }
+      },
+      "scripts": [],
+      "componentOrder": [
+        "spriteRenderer",
+        "spriteAnimator",
+        "animator"
+      ],
+      "children": []
+    },
+    {
+      "id": "go_100_muzc1k81",
+      "name": "Symbol_4",
+      "kind": "sprite",
+      "active": true,
+      "tag": "chest",
+      "layer": "Default",
+      "prefabId": null,
+      "transform": {
+        "x": 0,
+        "y": -2.2,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "components": {
+        "spriteRenderer": {
+          "spriteId": null,
+          "flipX": false,
+          "flipY": true,
+          "opacity": 1,
+          "sortingLayer": "Default",
+          "orderInLayer": 4,
+          "pixelsPerUnit": 100,
+          "usePixelsPerUnitFromSprite": true,
+          "swaps": [],
+          "swapIndex": -1,
+          "color": "#ffffff",
+          "shapeType": "rectangle",
+          "shapeWidth": 0.85,
+          "shapeHeight": 0.85,
+          "fillColor": "#8a5a2b",
+          "borderColor": "#1b1c22",
+          "borderWidth": 0.04,
+          "borderRadius": 0.1,
+          "gradientEnabled": false,
+          "gradientColor": "#1b1c22",
+          "gradientAngle": 90,
+          "shadowEnabled": false,
+          "shadowColor": "rgba(0,0,0,0.5)",
+          "shadowBlur": 0.08,
+          "shadowOffsetX": 0.04,
+          "shadowOffsetY": 0.04,
+          "tileWhenStretched": false,
+          "fillScreen": false,
+          "fillScreenSet": false,
+          "fitWidth": 0,
+          "fitHeight": 0,
+          "fitMode": "stretch",
+          "enabled": true
+        },
+        "spriteAnimator": {
+          "frames": [],
+          "fps": 8,
+          "loop": true,
+          "playing": false
+        },
+        "animator": {
+          "clipId": null,
+          "controllerId": null,
+          "playing": true,
+          "enabled": true,
+          "parameters": {}
+        }
+      },
+      "scripts": [],
+      "componentOrder": [
+        "spriteRenderer",
+        "spriteAnimator",
+        "animator"
+      ],
+      "children": []
+    }
+  ]
+}

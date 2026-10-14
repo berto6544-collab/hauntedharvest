@@ -2,7 +2,7 @@
   "format": "lite2d-github-collab/1",
   "scene": "MainScene",
   "savedBy": "berto6544-collab",
-  "savedAt": "2026-10-14T14:32:46.522Z",
+  "savedAt": "2026-10-14T15:06:57.641Z",
   "objects": [
     {
       "id": "go_2_muzbxrq0",
@@ -5101,7 +5101,7 @@
               "active": true,
               "tag": "",
               "transform": {
-                "x": 3.1406221234474363,
+                "x": 3.1756962515304714,
                 "y": -3.718278051646832,
                 "rotation": 0,
                 "scaleX": 0.014350641518523709,

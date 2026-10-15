@@ -4456,7 +4456,7 @@
     {
       "id": "community.github-collab",
       "name": "GitHub Collab",
-      "version": "2.0.1",
+      "version": "2.1.0",
       "file": "extensions/community.github-collab.litecomponent"
     }
   ]

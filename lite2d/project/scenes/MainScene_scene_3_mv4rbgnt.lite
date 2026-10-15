@@ -4912,7 +4912,7 @@
               "layer": "Default",
               "prefabId": null,
               "transform": {
-                "x": -8.320715496957824,
+                "x": -8.300333172356574,
                 "y": -4.1659002808146015,
                 "rotation": 0,
                 "scaleX": 0.01716929248180071,
@@ -5612,25 +5612,25 @@
               "id": "go_128_mv4p076z",
               "name": "MuteButton",
               "kind": "sprite",
-              "active": false,
+              "active": true,
               "tag": "",
               "layer": "Default",
               "prefabId": null,
               "transform": {
-                "x": 4.35,
-                "y": 1.55,
+                "x": 5.378459091699293,
+                "y": -4.131092114001472,
                 "rotation": 0,
-                "scaleX": 1,
-                "scaleY": 1
+                "scaleX": 0.019139785130914525,
+                "scaleY": 0.019139785130914525
               },
               "components": {
                 "spriteRenderer": {
-                  "spriteId": null,
+                  "spriteId": "slice_15_mv4rbg9w",
                   "flipX": false,
-                  "flipY": false,
+                  "flipY": true,
                   "opacity": 1,
                   "sortingLayer": "Default",
-                  "orderInLayer": 0,
+                  "orderInLayer": 15,
                   "pixelsPerUnit": 100,
                   "usePixelsPerUnitFromSprite": true,
                   "swaps": [],
@@ -5740,25 +5740,25 @@
               "id": "go_130_mv4p076z",
               "name": "SettingsButton",
               "kind": "sprite",
-              "active": false,
+              "active": true,
               "tag": "",
               "layer": "Default",
               "prefabId": null,
               "transform": {
-                "x": 4.35,
-                "y": 2.55,
+                "x": 6.358409109567857,
+                "y": -4.144694412586962,
                 "rotation": 0,
-                "scaleX": 1,
-                "scaleY": 1
+                "scaleX": 0.019302079112119525,
+                "scaleY": 0.019302079112119525
               },
               "components": {
                 "spriteRenderer": {
-                  "spriteId": null,
+                  "spriteId": "slice_14_mv4rbg9w",
                   "flipX": false,
-                  "flipY": false,
+                  "flipY": true,
                   "opacity": 1,
                   "sortingLayer": "Default",
-                  "orderInLayer": 0,
+                  "orderInLayer": 12,
                   "pixelsPerUnit": 100,
                   "usePixelsPerUnitFromSprite": true,
                   "swaps": [],
@@ -9927,13 +9927,9 @@
         },
         "go_128_mv4p076z": {
           "x": 3.183350214099478,
-          "y": -3.718278051646832,
+          "y": -3.7129069961183916,
           "scaleX": 0.014350641518523709,
-          "scaleY": 0.013204388757661282,
-          "active": true,
-          "sprite.spriteId": "slice_15_mv4rbg9w",
-          "sprite.orderInLayer": 12,
-          "sprite.flipY": true
+          "scaleY": 0.013204388757661282
         },
         "go_129_mv4p076z": {
           "active": false
